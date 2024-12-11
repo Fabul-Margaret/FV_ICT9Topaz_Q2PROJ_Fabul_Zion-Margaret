@@ -1,0 +1,250 @@
+body
+{
+	background: white;
+	font-family: 'Poppins', sans-serif  !important;    
+}
+
+a{
+text-decoration: none !important;	
+color: black !important;
+}
+p{
+	text-align: center;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+.top-nav-bar
+{
+	height: 57px;
+	top: 0;
+	position:sticky;
+	background: white;
+	margin-bottom: 20px;
+	border-bottom: 3px solid #EFEAB5;
+	z-index: 2;
+}
+.logo
+{
+	height: 40px;
+	margin: 5px 10px;
+	transform: rotate(360deg);
+	padding-left: 35px;
+}
+.form-control
+{
+	margin-top: 9px;
+	margin-left: 30px;
+	border: 5px solid #EFEAB5 !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius: 0 !important;
+	box-shadow: none !important;
+}
+.input-group-text
+{
+	background: #EFEAB5 !important;
+	border: 5 px solid #EFEAB5 !important;
+	margin: 8.5px 10px 3px 0 !important;
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+	border-top-right-radius: 20 !important;
+	border-bottom-right-radius: 20 !important;
+	cursor: pointer;
+}
+.search-box
+{
+	display: inline-flex;
+	width: 60%;
+}
+.menu-bar
+{
+	width: 40%;
+	height: 57px;
+	float: right;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	float: right;
+}
+.menu-bar ul li
+{
+	border-left: 3 px solid white;
+	list-style-type: none;
+	padding: 15px 35px;
+	text-align: center;
+	background-color: #EFEAB5;
+	cursor: pointer;
+}
+.menu-bar ul li a 
+{
+	font-size: 15px;
+	font-weight: bold;
+	color: #A68958;
+	text-decoration: none;
+}
+
+/*-----side menu part-----*/
+
+.side-menu
+{
+	height: 79&;
+	width: 15%;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: #C9AF94 ;
+}
+.side-menu ul
+{
+	margin-left: 10px ;
+}
+.side-menu li
+{
+	color: #645F49;
+}
+.side-menu ul li 
+{
+	list-style-type: none;
+	font-weight: bold;
+	margin-top: 10px;
+	cursor: pointer;
+	color: white;
+}
+.side-menu ul li:hover
+{
+	color:#EFEAB5 ;
+}
+.side-menu ul li ul
+{
+	display: none;
+	z-index: 10;
+	top: 77px;
+}
+.side-menu ul li:hover ul
+{
+	display: block;
+	height: 400px;
+	margin-left: 14%;
+	padding: 0 100px 10px 10px;
+	position: fixed;
+	background:#7D775B;
+	box-shadow: 1px 1px 4px 1px rgba(0, 0, 0, 0.5);
+}
+.fa-angle-right
+{
+	margin-top: 4px;
+	margin-right: 8px;
+	float: right;
+}
+
+/*-----ftr-----*/
+.ft-recipes
+{
+	margin: 50px 0;
+}
+.ft-recipes img
+{
+	width: 100%;
+	padding: 20px 0;
+	transition: 1s;
+	cursor: pointer;
+}
+.ft-recipes img:hover
+{
+	transform: scale(1.1);
+}
+/*-----vf-----*/
+.title-box
+{
+	background-color: #EFEAB5;
+	color: white;
+	width: 180px;
+	padding: 4px 10px;
+	height: 40px;
+	margin-bottom: 30px;
+	display: flex;
+}
+
+.title-box h2
+{
+	font-size: 24px;
+}
+.title-box::after
+{
+	content: '';
+	border-top: 40px solid  #EFEAB5;
+	border-right: 50px solid transparent;
+	position: absolute;
+	display: flex;
+	margin-top: -4px;
+	margin-left: 170px;
+}
+/*-----favs-----*/
+.rec-top img
+{
+	height: 450px;
+	width: 300px;
+}
+/*-----more-----*/
+.more1
+{
+	margin: 50px;
+}
+/*-----web features-----*/
+.website-features
+{
+	margin: 60 px 0;
+}
+.website-features img
+{
+	width: 45%;
+}
+.featured-text
+{
+	margin-top: 10px;
+	float: right;
+	width: 45%;
+	padding-left: 20px;
+}
+.feauture-box
+{
+	padding-top: 20px;
+}
+/*-----footer-----*/
+.footer
+{
+	margin-top: 50ppx;
+	background: black;
+	color: white;
+}
+.footer h1
+{
+	font-size: 15px;
+	margin: 25px;
+}
+.footer p
+{
+	font-size: 12px;
+}
+.footer a
+{
+	color: white !important;
+}
+.single-recipe h2
+{
+	padding-left: 300px;
+}
+.single-recipe p
+{
+	padding-left: 290px;
+}
+.single-recipe  li
+{
+	margin-left: 290px;
+}
